@@ -1,0 +1,22 @@
+experimental: 
+    E:\Programs\ffmpeg\bin\ffmpeg.exe -nostats -loglevel 0 -i E:\graduationProject\MoviesData\test\audio.wav -ss 2,24 -t 0.060 -c copy -map 0 -acodec libmp3lame -ab 128k -f mp3 -metadata m_text='okay so welcome to this Google hangout' #pipe:1
+
+
+
+extarct sound from video
+E:\Programs\ffmpeg\bin\ffmpeg.exe -i input_file -ab 160k -ac 2 -ar 44100 -vn output_file
+example :
+    E:\Programs\ffmpeg\bin\ffmpeg.exe -i test.mp4 -ab 160k -ac 2 -ar 44100 -vn audio.wav
+
+cut from video 
+
+E:\Programs\ffmpeg\bin\ffmpeg.exe -ss 6.050 -t 3.590 -i test2.mp4 -acodec libmp3lame -ab 128k NewTest.wav
+
+
+
+duration = end_time - start_time
+input_file may be (audio).wav or video(.mp4 for example)
+output_file (audio).wav
+E:\Programs\ffmpeg\bin\ffmpeg.exe -ss start_time*60 -t duration -i input_file -acodec libmp3lame -ab 128k output_file   
+example :
+    E:\Programs\ffmpeg\bin\ffmpeg.exe -ss 120 -t 15.24 -i audio.wav -acodec libmp3lame -ab 128k out.wav 

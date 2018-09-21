@@ -1,0 +1,15 @@
+
+
+
+    https://stackoverflow.com/questions/26741116/python-extract-wav-from-video-file
+    https://stackoverflow.com/questions/11269575/how-to-hide-output-of-subprocess-in-python-2-7
+    https://stackoverflow.com/questions/4760215/running-shell-command-from-python-and-capturing-the-output
+    https://stackoverflow.com/questions/12453580/concatenate-item-in-list-to-strings
+
+
+    https://docs.python.org/3/library/subprocess.html
+    https://docs.python.org/3/library/glob.html#module-glob 
+    ffmpeg Docs >> https://ffmpeg.org/ffmpeg.html
+    ffmpeg windows build >> https://ffmpeg.zeranoe.com/builds/
+    download subtitles for youtube videos >> https://downsub.com
+    download subtitles for movies >> https://subscene.com/browse/popular/all/1
