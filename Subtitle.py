@@ -112,7 +112,7 @@ def saveSubtitleData(filename,SubtitleData):
     Return :
         None
     """
-    f = open(filename.split(".")[0]+"Data.txt","w")
+    f = open(filename.split(".srt")[0]+"_Data.txt","w")
 
     for i in SubtitleData:
         f.writelines(str(i[0]) + " " + str(i[1]) + " " + str(i[2]) + " " + str(i[3]) + " " + "\n")
